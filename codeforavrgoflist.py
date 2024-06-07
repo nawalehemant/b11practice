@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 spark=SparkSession.builder.appName("avrgoflist").getOrCreate()
 
-l=[1,2,3,4,5]
+l=[10,22,30,14,14,43]
 
 rdd = spark.sparkContext.parallelize(l)
 rdd.collect()
