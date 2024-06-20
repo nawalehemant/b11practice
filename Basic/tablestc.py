@@ -1,0 +1,1 @@
+# create table fund (fund_id int,fund_name string,all_companyes string,all_percent int,all_active_flag boole);
